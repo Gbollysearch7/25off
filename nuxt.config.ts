@@ -265,28 +265,7 @@ export default defineNuxtConfig({
 
   // ✅ Hybrid rendering: SSR for public pages, SPA for auth routes
   routeRules: {
-    "/landing-api/**": { proxy: "/api/**" },
-    // Pre-render static pages for best performance
-    "/": { prerender: true },
-    "/about": { prerender: true },
-    "/rules": { prerender: true },
-    "/support": { prerender: true },
-    "/account-scaling": { prerender: true },
-    "/affiliate-program": { prerender: true },
-    "/arena": { ssr: true },
-    "/1v1": { ssr: true },
-    "/5v5": { ssr: true },
-    "/landing-survivor-showdown": { prerender: true },
-    // Campaign landing pages
     "/gift-a-challenge": { prerender: true },
-    "/gac-v2": { prerender: true },
-    // Challenge landing pages - prerender for best performance
-    "/challenges/**": { prerender: true },
-    // Legal pages - prerender
-    "/legal/**": { prerender: true },
-    // ✅ Cache headers for static assets (immutable = can cache forever)
-    // todo: fixme was breaking cors (???)
-    // "/_nuxt/**": { headers: { "cache-control": "public, max-age=31536000, immutable", "access-control-allow-origin": "*" } },
   },
 
   // ✅ Nitro server configuration
