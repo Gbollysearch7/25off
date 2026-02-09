@@ -7,6 +7,8 @@
     <CampaignPricing />
     <SocialShare />
     <SocialProof />
+    <WhyTradersYard />
+    <UrgencyCTA />
     <CampaignFAQ />
     <FinalCTA />
   </div>
@@ -21,6 +23,8 @@ import CampaignPricing from '~/components/campaign/CampaignPricing.vue'
 import SocialShare from '~/components/campaign/SocialShare.vue'
 import SocialProof from '~/components/campaign/SocialProof.vue'
 import CampaignFAQ from '~/components/campaign/CampaignFAQ.vue'
+import WhyTradersYard from '~/components/campaign/WhyTradersYard.vue'
+import UrgencyCTA from '~/components/campaign/UrgencyCTA.vue'
 import FinalCTA from '~/components/campaign/FinalCTA.vue'
 import { useScrollReveal } from '~~/composables/useScrollReveal'
 
