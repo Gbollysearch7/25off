@@ -265,6 +265,7 @@ export default defineNuxtConfig({
 
   // ✅ Hybrid rendering: SSR for public pages, SPA for auth routes
   routeRules: {
+    "/": { redirect: { to: "/gift-a-challenge", statusCode: 301 } },
     "/gift-a-challenge": { prerender: true },
   },
 
