@@ -195,7 +195,7 @@ export default defineNuxtConfig({
         { property: "og:url", content: "https://tradersyard.com" },
         {
           property: "og:image",
-          content: "https://tradersyard.com/landing/og.png",
+          content: "https://tradersyard.com/landing/og-gift-a-challenge.png",
         },
         { property: "og:image:type", content: "image/png" },
         { property: "og:image:width", content: "1200" },
@@ -213,7 +213,7 @@ export default defineNuxtConfig({
         },
         {
           name: "twitter:image",
-          content: "https://tradersyard.com/landing/og.png",
+          content: "https://tradersyard.com/landing/og-gift-a-challenge.png",
         },
       ],
       script: [
