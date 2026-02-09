@@ -41,12 +41,12 @@ useHead({
     },
     { property: 'og:title', content: 'Gift a Challenge — Valentine\'s Special | TradersYard' },
     { property: 'og:description', content: '25% off + gift a FREE challenge to someone you care about. Use code LOVE25. Feb 9-18 only.' },
-    { property: 'og:image', content: 'https://tradersyard.com/landing/og-gift-a-challenge.png' },
+    { property: 'og:image', content: 'https://gift-a-challenge-v2.vercel.app/landing/og-gift-a-challenge.png' },
     { property: 'og:type', content: 'website' },
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: 'Gift a Challenge — Valentine\'s Special | TradersYard' },
     { name: 'twitter:description', content: '25% off + gift a FREE challenge to someone you care about. Use code LOVE25.' },
-    { name: 'twitter:image', content: 'https://tradersyard.com/landing/og-gift-a-challenge.png' },
+    { name: 'twitter:image', content: 'https://gift-a-challenge-v2.vercel.app/landing/og-gift-a-challenge.png' },
   ],
 })
 </script>
